@@ -1,0 +1,11 @@
+.js-toolbar-action {
+    display: none !important;
+}
+
+.summary > li:last-child {
+    display: none !important;
+}
+
+.summary > li:nth-last-child(2) {
+    display: none !important;
+}
