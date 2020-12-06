@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>SSPanel系列 · GitBook</title>
+        <title>SSPanel · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -53,8 +53,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
+    <link rel="next" href="whmcs.html" />
     
-    <link rel="prev" href="whmcs.html" />
+    
+    <link rel="prev" href="v2board.html" />
     
 
     </head>
@@ -123,12 +125,12 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.2" data-path="whmcs.html">
+        <li class="chapter active" data-level="1.2.2" data-path="sspanel.html">
             
-                <a href="whmcs.html">
+                <a href="sspanel.html">
             
                     
-                    WHMCS
+                    SSPanel
             
                 </a>
             
@@ -136,12 +138,12 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2.3" data-path="sspanel.html">
+        <li class="chapter " data-level="1.2.3" data-path="whmcs.html">
             
-                <a href="sspanel.html">
+                <a href="whmcs.html">
             
                     
-                    SSPanel系列
+                    WHMCS
             
                 </a>
             
@@ -184,7 +186,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >SSPanel系列</a>
+        <a href=".." >SSPanel</a>
     </h1>
 </div>
 
@@ -199,7 +201,25 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <p>&#x656C;&#x8BF7;&#x671F;&#x5F85;&#x2026;&#x2026;</p>
+                                <p>1. &#x4E0B;&#x8F7D;&#x5BF9;&#x5E94;&#x7248;&#x672C;&#x7684; Pay Beaver SDK</p>
+<ul>
+<li><a href="paybeaver-sspanel-uim-abaf59e7.zip" target="_blank">SSPanel UIM&#x7248;</a></li>
+<li><a href="paybeaver-sspanel-malio-cbe7d459.zip" target="_blank">SSPanel Malio&#x7248;</a></li>
+<li><a href="paybeaver-sspanel-cool-32515e6d.zip" target="_blank">SSPanel Cool&#x7248;</a></li>
+</ul>
+<p>2. &#x5728;&#x9879;&#x76EE;&#x76EE;&#x5F55;&#x4E0B;&#x89E3;&#x538B;&#x5E76;&#x8986;&#x76D6;&#xFF0C;&#x4F8B;&#x5982; <code>/www/wwwroot/xxx</code></p>
+<p>3. &#x6253;&#x5F00; <code>config/.config.php</code><br>
+&#x627E;&#x5230; <code>$_ENV[&apos;payment_system&apos;]</code><br>
+&#x6216;&#x8005; <code>$System_Config[&apos;payment_system&apos;]</code> <br>
+&#x5C06;&#x503C;&#x4FEE;&#x6539;&#x4E3A; <code>paybeaver</code></p>
+<p>4. &#x5E76;&#x5728; <code>config/.config.php</code> &#x4E0B;&#x65B9;&#x63D2;&#x5165;&#x4EE5;&#x4E0B;&#x5185;&#x5BB9;</p>
+<blockquote>
+<p>&#x6CE8;&#xFF1A;&#x82E5;&#x4F60;&#x7684;&#x53D8;&#x91CF;&#x540D;&#x90FD;&#x662F; <code>$System_Config</code> &#x7684;&#x8BDD;&#xFF0C;&#x5219;&#x5C06;&#x4E0B;&#x9762;&#x4E09;&#x884C;&#x7684; <code>$_ENV</code> &#x66FF;&#x6362;&#x4E3A; <code>$System_Config</code></p>
+</blockquote>
+<pre class="language-"><code class="lang-php"><span class="token variable">$_ENV</span><span class="token punctuation">[</span><span class="token single-quoted-string string">&apos;paybeaver_app_id&apos;</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token single-quoted-string string">&apos;App ID&apos;</span><span class="token punctuation">;</span>
+<span class="token variable">$_ENV</span><span class="token punctuation">[</span><span class="token single-quoted-string string">&apos;paybeaver_app_secret&apos;</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token single-quoted-string string">&apos;App Secret&apos;</span><span class="token punctuation">;</span>
+<span class="token variable">$_ENV</span><span class="token punctuation">[</span><span class="token single-quoted-string string">&apos;paybeaver_url&apos;</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token single-quoted-string string">&apos;https://api.paybeaver.com&apos;</span><span class="token punctuation">;</span>
+</code></pre>
 
                                 
                                 </section>
@@ -227,10 +247,14 @@
 
             
                 
-                <a href="whmcs.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: WHMCS">
+                <a href="v2board.html" class="navigation navigation-prev " aria-label="Previous page: V2Board">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
+                
+                <a href="whmcs.html" class="navigation navigation-next " aria-label="Next page: WHMCS">
+                    <i class="fa fa-angle-right"></i>
+                </a>
                 
             
         
@@ -239,7 +263,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"SSPanel系列","level":"1.2.3","depth":2,"previous":{"title":"WHMCS","level":"1.2.2","depth":2,"path":"sdk/whmcs.md","ref":"sdk/whmcs.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["prism"],"pluginsConfig":{"prism":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"website.css"}},"file":{"path":"sdk/sspanel.md","mtime":"2020-11-19T09:41:14.897Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-11-19T15:32:02.381Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"SSPanel","level":"1.2.2","depth":2,"next":{"title":"WHMCS","level":"1.2.3","depth":2,"path":"sdk/whmcs.md","ref":"sdk/whmcs.md","articles":[]},"previous":{"title":"V2Board","level":"1.2.1","depth":2,"path":"sdk/v2board.md","ref":"sdk/v2board.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["prism"],"pluginsConfig":{"prism":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"website.css"}},"file":{"path":"sdk/sspanel.md","mtime":"2020-12-06T16:41:22.682Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-12-06T16:45:36.214Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
