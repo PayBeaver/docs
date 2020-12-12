@@ -1,4 +1,4 @@
-.js-toolbar-action {
+.book-header {
     display: none !important;
 }
 
@@ -7,5 +7,9 @@
 }
 
 .summary > li:nth-last-child(2) {
+    display: none !important;
+}
+
+#book-search-input {
     display: none !important;
 }
