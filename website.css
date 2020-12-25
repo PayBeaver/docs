@@ -13,3 +13,26 @@
 #book-search-input {
     display: none !important;
 }
+
+
+/* 修复手机端显示 */
+@media (max-width: 900px) {
+    .header-inner > .title {
+        font-size: 12px !important;
+    }
+    .book-summary {
+        width: auto !important;
+        position: initial !important;
+    }
+    .book-body {
+        left: auto !important;
+        position: initial !important;
+    }
+
+    .book-anchor, .header-nav {
+        display: none !important;
+    }
+    .page-inner {
+        padding: inherit !important;
+    }
+}
