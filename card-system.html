@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>V2Board · Pay Beaver 海狸支付——加拿大国宝级支付</title>
+        <title>发卡系统 · Pay Beaver 海狸支付——加拿大国宝级支付</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,8 +57,8 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="sspanel.html" />
     
+    <link rel="prev" href="whmcs.html" />
     
 
     </head>
@@ -132,7 +132,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.2.1" data-path="v2board.html">
+        <li class="chapter " data-level="1.2.1" data-path="v2board.html">
             
                 <a href="v2board.html">
             
@@ -184,7 +184,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.5" data-path="card-system.html">
+        <li class="chapter active" data-level="1.2.5" data-path="card-system.html">
             
                 <a href="card-system.html">
             
@@ -240,7 +240,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >V2Board</a>
+        <a href="." >发卡系统</a>
     </h1>
 </div>
 
@@ -255,25 +255,31 @@
     
                     <section class="normal markdown-section">
                         
-                        <h1 id="paybeaver-for-v2board">PayBeaver for V2Board</h1>
-<p>PayBeaver &#x652F;&#x6301;&#x591A;&#x79CD;&#x5BF9;&#x63A5;&#x7684;&#x534F;&#x8BAE;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x6839;&#x636E;&#x81EA;&#x5DF1;&#x7684;&#x5B9E;&#x9645;&#x60C5;&#x51B5;&#x8FDB;&#x884C;&#x9009;&#x62E9;&#x3002;</p>
-<h3 id="mgate-&#x652F;&#x4ED8;&#x534F;&#x8BAE;">mGate &#x652F;&#x4ED8;&#x534F;&#x8BAE;</h3>
-<blockquote>
-<p>mGate&#x662F;&#x4E00;&#x5957;&#x652F;&#x4ED8;&#x7CFB;&#x7EDF;&#xFF0C;&#x53EF;&#x80FD;&#x6709;&#x591A;&#x4E2A;&#x652F;&#x4ED8;&#x5546;&#x4F7F;&#x7528;&#x8BE5;&#x7CFB;&#x7EDF;&#xFF0C;&#x4F7F;&#x7528;&#x8BE5;&#x7CFB;&#x7EDF;&#x7684;&#x5747;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x672C;&#x63A5;&#x53E3;&#x3002;</p>
-</blockquote>
-<p>&#x8FDB;&#x5165; V2Board &#x540E;&#x53F0; -&gt; &#x652F;&#x4ED8;&#x914D;&#x7F6E; -&gt; mGate</p>
-<p>URL&#xFF1A; <code>https://api.paybeaver.com</code></p>
-<p>AppID&#xFF1A; <a href="https://merchant.paybeaver.com" target="_blank">&#x5546;&#x6237;&#x4E2D;&#x5FC3;</a> -&gt; &#x5F00;&#x53D1;&#x8005; -&gt; App ID</p>
-<p>AppSecret&#xFF1A;<a href="https://merchant.paybeaver.com" target="_blank">&#x5546;&#x6237;&#x4E2D;&#x5FC3;</a> -&gt; &#x5F00;&#x53D1;&#x8005; -&gt; App Secret</p>
-<h3 id="&#x6613;&#x652F;&#x4ED8;&#x652F;&#x4ED8;&#x534F;&#x8BAE;">&#x6613;&#x652F;&#x4ED8;&#x652F;&#x4ED8;&#x534F;&#x8BAE;</h3>
-<blockquote>
-<p>&#x6613;&#x652F;&#x4ED8;&#x662F;&#x4E00;&#x5957;&#x652F;&#x4ED8;&#x7CFB;&#x7EDF;&#xFF0C;&#x53EF;&#x80FD;&#x6709;&#x591A;&#x4E2A;&#x652F;&#x4ED8;&#x5546;&#x4F7F;&#x7528;&#x8BE5;&#x7CFB;&#x7EDF;&#xFF0C;&#x4F7F;&#x7528;&#x8BE5;&#x7CFB;&#x7EDF;&#x7684;&#x5747;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x672C;&#x63A5;&#x53E3;&#x3002;</p>
-</blockquote>
-<p>&#x8FDB;&#x5165; V2Board &#x540E;&#x53F0; -&gt; &#x652F;&#x4ED8;&#x914D;&#x7F6E; -&gt; &#x6613;&#x652F;&#x4ED8;</p>
-<p>URL&#xFF1A; <code>https://api.paybeaver.com/api/v1/invoices</code></p>
-<p>PID&#xFF1A; <a href="https://merchant.paybeaver.com" target="_blank">&#x5546;&#x6237;&#x4E2D;&#x5FC3;</a> -&gt; &#x5F00;&#x53D1;&#x8005; -&gt; App ID</p>
-<p>Key&#xFF1A;<a href="https://merchant.paybeaver.com" target="_blank">&#x5546;&#x6237;&#x4E2D;&#x5FC3;</a> -&gt; &#x5F00;&#x53D1;&#x8005; -&gt; App Secret</p>
-
+                        <h1 id="&#x53D1;&#x5361;&#x7CFB;&#x7EDF;&#x5BF9;&#x63A5;&#x6559;&#x7A0B;">&#x53D1;&#x5361;&#x7CFB;&#x7EDF;&#x5BF9;&#x63A5;&#x6559;&#x7A0B;</h1>
+<h2 id="&#x98CE;&#x94C3;&#x53D1;&#x5361;&#x7CFB;&#x7EDF;">&#x98CE;&#x94C3;&#x53D1;&#x5361;&#x7CFB;&#x7EDF;</h2>
+<p>&#x9879;&#x76EE;&#x5730;&#x5740;&#xFF1A;<a href="https://github.com/Tai7sy/card-system" target="_blank">Tai7sy/card-system</a></p>
+<p>&#x98CE;&#x94C3;&#x7CFB;&#x7EDF;&#x6700;&#x65B0;&#x7684; Gateway &#x5DF2;&#x7ECF;&#x652F;&#x6301; PayBeaver &#x6D77;&#x72F8;&#x652F;&#x4ED8;&#xFF0C;<a href="https://github.com/Tai7sy/card-gateway/blob/master/Pay/PayBeaver/Api.php" target="_blank">PayBeaver/Api.php</a>&#xFF0C;&#x82E5;&#x4F60;&#x7684; Gateway &#x6BD4;&#x8F83;&#x8001;&#x8BF7;&#x624B;&#x52A8;&#x66F4;&#x65B0;&#x3002;</p>
+<h3 id="paybeaver-&#x6D77;&#x72F8;&#x81EA;&#x6709;&#x652F;&#x4ED8;&#x534F;&#x8BAE;">PayBeaver &#x6D77;&#x72F8;&#x81EA;&#x6709;&#x652F;&#x4ED8;&#x534F;&#x8BAE;</h3>
+<p>&#x8FDB;&#x5165;&#x540E;&#x53F0; -&gt; &#x6E20;&#x9053;&#x8BBE;&#x7F6E; -&gt; &#x6DFB;&#x52A0;</p>
+<p>&#x540D;&#x79F0;&#xFF1A; <code>PayBeaver</code>
+&#x9A71;&#x52A8;&#xFF1A; <code>PayBeaver</code>
+&#x65B9;&#x5F0F;&#xFF1A; <code>PayBeaver</code>
+&#x914D;&#x7F6E;&#xFF1A; <code>JSON</code></p>
+<pre class="language-"><code>{
+  &quot;app_id&quot;: &quot;App ID&quot;,
+  &quot;app_secret&quot;: &quot;App secret&quot;
+}
+</code></pre><h3 id="&#x6613;&#x652F;&#x4ED8;&#x652F;&#x4ED8;&#x534F;&#x8BAE;">&#x6613;&#x652F;&#x4ED8;&#x652F;&#x4ED8;&#x534F;&#x8BAE;</h3>
+<p>&#x8FDB;&#x5165;&#x540E;&#x53F0; -&gt; &#x6E20;&#x9053;&#x8BBE;&#x7F6E; -&gt; &#x6DFB;&#x52A0;</p>
+<p>&#x9A71;&#x52A8;&#xFF1A; <code>Epay</code>
+&#x65B9;&#x5F0F;&#xFF1A; <code>alipay</code>
+&#x914D;&#x7F6E;&#xFF1A; <code>JSON</code></p>
+<pre class="language-"><code>{
+  &quot;gateway&quot;: &quot;https://api.paybeaver.com/api/v1/invoices&quot;,
+  &quot;pid&quot;: &quot;App ID&quot;,
+  &quot;key&quot;: &quot;App secret&quot;
+}
+</code></pre>
                         
                     </section>
                     
@@ -300,12 +306,12 @@
 
         
         
-        
-        <a href="sspanel.html"
-           class="navigation navigation-next navigation-unique"
-           aria-label="Next page: SSPanel">
-            <i class="fa fa-angle-right"></i>
+        <a href="whmcs.html"
+           class="navigation navigation-prev navigation-unique"
+           aria-label="Previous page: WHMCS">
+            <i class="fa fa-angle-left"></i>
         </a>
+        
         
         
         
@@ -313,7 +319,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"V2Board","level":"1.2.1","depth":2,"next":{"title":"SSPanel","level":"1.2.2","depth":2,"path":"sspanel.md","ref":"sspanel.md","articles":[]},"previous":{"title":"面板接入","level":"1.2","depth":1,"ref":"","articles":[{"title":"V2Board","level":"1.2.1","depth":2,"path":"v2board.md","ref":"v2board.md","articles":[]},{"title":"SSPanel","level":"1.2.2","depth":2,"path":"sspanel.md","ref":"sspanel.md","articles":[]},{"title":"ProxyPanel","level":"1.2.3","depth":2,"path":"proxypanel.md","ref":"proxypanel.md","articles":[]},{"title":"WHMCS","level":"1.2.4","depth":2,"path":"whmcs.md","ref":"whmcs.md","articles":[]},{"title":"发卡系统","level":"1.2.5","depth":2,"path":"card-system.md","ref":"card-system.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["theme-hqbook","prism"],"styles":{"website":"website.css"},"pluginsConfig":{"theme-hqbook":{"favicon":"/favicon.ico","logo":"/logo.png","search-placeholder":"输入关键字搜索","copyButtons":true,"copyLines":true,"dragSplitter":true,"flexible-linkcard":{"title":"Converts blockquotes into beautiful linkcard, custom nice links","target":"_blank","hrefUrl":"../../demo/demo.html","imgSrc":"../../images/home/logo.png","imgClass":""},"hide-elements":[".summary .gitbook-link"]},"prism":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"themeHqbook":{"nav":[{"url":"https://merchant.paybeaver.com","target":"_blank","name":"点击登录或注册海狸支付"}]}},"title":"Pay Beaver 海狸支付——加拿大国宝级支付","gitbook":"*","description":"加拿大国宝级支付"},"file":{"path":"v2board.md","mtime":"2020-12-25T10:29:50.197Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-01-26T08:07:22.796Z"},"basePath":".","book":{"language":""}})
+            gitbook.page.hasChanged({"page":{"title":"发卡系统","level":"1.2.5","depth":2,"previous":{"title":"WHMCS","level":"1.2.4","depth":2,"path":"whmcs.md","ref":"whmcs.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-hqbook","prism"],"styles":{"website":"website.css"},"pluginsConfig":{"theme-hqbook":{"favicon":"/favicon.ico","logo":"/logo.png","search-placeholder":"输入关键字搜索","copyButtons":true,"copyLines":true,"dragSplitter":true,"flexible-linkcard":{"title":"Converts blockquotes into beautiful linkcard, custom nice links","target":"_blank","hrefUrl":"../../demo/demo.html","imgSrc":"../../images/home/logo.png","imgClass":""},"hide-elements":[".summary .gitbook-link"]},"prism":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"themeHqbook":{"nav":[{"url":"https://merchant.paybeaver.com","target":"_blank","name":"点击登录或注册海狸支付"}]}},"title":"Pay Beaver 海狸支付——加拿大国宝级支付","gitbook":"*","description":"加拿大国宝级支付"},"file":{"path":"card-system.md","mtime":"2021-01-26T08:06:36.954Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-01-26T08:07:22.796Z"},"basePath":".","book":{"language":""}})
         });
     </script>
 </div>
